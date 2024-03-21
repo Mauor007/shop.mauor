@@ -1,0 +1,343 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    box-shadow: 2px 4px 50px 20px black;
+}
+.nav {
+    display: flex;
+}
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+.nav_list a {
+    text-decoration: none;
+    color: black;
+}
+.nav_item {
+    margin-right: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+.container {
+    padding: 50px auto;
+    margin: auto 100px;
+}
+.logotip {
+    margin-left: 60%;
+    margin-top: 5px;
+}
+.user img {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.kor {
+    margin-left: 1.5%;
+}
+.title_shot {
+    display: block;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 40%;
+    padding-top: 50px;
+    color: rgb(69, 117, 60);
+    font-weight: bold;
+    text-decoration: double;
+}
+.stone {
+    color: black;
+    text-decoration: line-through;
+}
+.block_line__1 {
+    margin-top: 14%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.block_line__1__product_1 {
+    width: 25%;
+    height: 30%;
+    box-shadow:2px 4px 50px 20px rgb(52, 82, 53);
+    border-radius: 20px;
+}
+.product_1 {
+    border-radius: 20px;;
+}
+.title_product_1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.price_product {
+    margin-top: 30px;
+    margin-left: 37%;
+    margin-bottom: 60px;
+    font-size: 30px;
+    display: block;
+}
+.btn_1 {
+    margin-left: 150px;
+    margin-top: -50px;
+    width: 100px;
+    height: 50px;
+}
+.btn_1 a {
+    text-decoration: none;
+    color: white;
+}
+.btn_product_1{
+    background-color: rgb(64, 97, 69);
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.block_line__1__product_2 {
+    width: 25%;
+    box-shadow: 2px 4px 50px 20px rgb(148, 147, 147);
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.product_2 {
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.title_product_2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.price_product_2 {
+    margin-top: 30px;
+    margin-left: 37%;
+    margin-bottom: 60px;
+    font-size: 30px;
+    display: block;
+}
+.btn_2 {
+    margin-left: 150px;
+    margin-top: -50px;
+    width: 100px;
+    height: 50px;
+}
+.btn_2 a {
+    text-decoration: none;
+    color: white;
+}
+.btn_product_2 {
+    background-color: rgb(64, 97, 69);
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.block_line__1__product_3 {
+    width: 25%;
+    box-shadow: 2px 4px 50px 20px black;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.product_3 {
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.title_product_3 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.price_product_3 {
+    margin-top: 30px;
+    margin-left: 37%;
+    margin-bottom: 60px;
+    font-size: 30px;
+    display: block;
+}
+.btn_3 {
+    margin-left: 150px;
+    margin-top: -50px;
+    width: 100px;
+    height: 50px;
+}
+.btn_3 a {
+    text-decoration: none;
+    color: white;
+}
+.btn_product_3 {
+    background-color: rgb(64, 97, 69);
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+/* block 2 */
+.block_line_2 {
+    margin-top: 10%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.block_line__product_4 {
+    width: 25%;
+    box-shadow: 2px 4px 50px 20px black;
+    margin-left: 0%;
+    border-radius: 20px;
+}
+.product_4 {
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.title_product_4 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.price_product_4 {
+    margin-top: 30px;
+    margin-left: 37%;
+    margin-bottom: 60px;
+    font-size: 30px;
+    display: block;
+}
+.btn_4 {
+    margin-left: 150px;
+    margin-top: -50px;
+    width: 100px;
+    height: 50px;
+}
+.btn_4 a {
+    text-decoration: none;
+    color: white;
+}
+.btn_product_4 {
+    background-color: rgb(64, 97, 69);
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.block_line__product_5 {
+    width: 25%;
+    box-shadow: 2px 4px 50px 20px black;
+    margin-left: 0%;
+    border-radius: 20px;
+}
+.product_5 {
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.title_product_5 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.price_product_5 {
+    margin-top: 30px;
+    margin-left: 37%;
+    margin-bottom: 60px;
+    font-size: 30px;
+    display: block;
+}
+.btn_5 {
+    margin-left: 150px;
+    margin-top: -50px;
+    width: 100px;
+    height: 50px;
+}
+.btn_5 a {
+    text-decoration: none;
+    color: white;
+}
+.btn_product_5 {
+    background-color: rgb(64, 97, 69);
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.block_line__product_6 {
+    width: 25%;
+    box-shadow: 2px 4px 50px 20px black;
+    margin-left: 0%;
+    border-radius: 20px;
+}
+.product_6 {
+    border-radius: 20px;
+    margin-left: 5%;
+}
+.title_product_6 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.price_product_6 {
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-bottom: 60px;
+    font-size: 30px;
+    display: block;
+    text-decoration: line-through;
+}
+.price_product_sale_1 {
+    color: red;
+    font-size: 30px;
+    margin-top: -75px;
+    margin-left: 37%;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.btn_6 {
+    margin-left: 150px;
+    margin-top: -50px;
+    width: 100px;
+    height: 50px;
+}
+.btn_6 a {
+    text-decoration: none;
+    color: white;
+}
+.btn_product_6 {
+    background-color: rgb(64, 97, 69);
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+/* ПОДВАЛ */
+
+  .footer__info {
+    margin-top: 5%;
+  }
+  .footer__adres {
+    margin-bottom: 50px;
+    padding-top: 60px;
+    font-size: 15px;
+    opacity: 0.8;
+  }
+  .footer__number { 
+    font-size: 25px;
+    opacity: 0.8;
+  }
+  .footer__politic {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .footer__politic a {
+    text-decoration: none;
+    color: #0e2431;
+    line-height: 40px;
+  }
+  .mail {
+    display: flex;
+    margin-left: 70%;
+    margin-top: -10%;
+  }
+  .mail__txt {
+    font-size: 20px;
+    opacity: 0.8s;
+    
+  }

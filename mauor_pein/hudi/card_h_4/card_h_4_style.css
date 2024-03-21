@@ -1,0 +1,101 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    box-shadow: 2px 4px 50px 20px black;
+}
+.nav {
+    display: flex;
+}
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+.nav_list a {
+    text-decoration: none;
+    color: black;
+}
+.nav_item {
+    margin-right: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+.logotip {
+    margin-left: 60%;
+    margin-top: 5px;
+}
+.user img {
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.kor {
+  margin-left: 1.5%;
+}
+.tovar_photo {
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.tovar_photo img {
+    border-radius: 20px;
+}
+.tovar_desc {
+    margin-left: 50%;
+}
+.title_tovar_1 {
+    margin-left: 0%;
+    margin-top: -50%;
+    font-size: 45px;
+}
+.price_tovar_1 {
+    margin-top:  50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.btn_tovar {
+    margin-top: 50px;
+    width: 200px;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    background-color: thistle;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+  .footer__info {
+    margin-top: 12%;
+    margin-left: 5%;
+  }
+  .footer__adres {
+    margin-bottom: 50px;
+    padding-top: 60px;
+    font-size: 15px;
+    opacity: 0.8;
+  }
+  .footer__number { 
+    font-size: 25px;
+    opacity: 0.8;
+  }
+  .footer__politic {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .footer__politic a {
+    text-decoration: none;
+    color: #0e2431;
+    line-height: 40px;
+  }
+  .mail {
+    display: flex;
+    margin-left: 70%;
+    margin-top: -10%;
+  }
+  .mail__txt {
+    font-size: 20px;
+    opacity: 0.8s;
+    
+  }

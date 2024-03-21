@@ -1,0 +1,103 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    box-shadow: 2px 4px 50px 20px black;
+}
+.nav {
+    display: flex;
+}
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+.nav_list a {
+    text-decoration: none;
+    color: black;
+}
+.nav_item {
+    margin-right: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+.container {
+    padding: 50px auto;
+    margin: auto 100px;
+}
+.logotip {
+    margin-left: 60%;
+    margin-top: 5px;
+}
+.user img {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.kor {
+    margin-left: 1.5%;
+}
+.title_shot {
+    display: block;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-left: 40%;
+    padding-top: 50px;
+    color: rgb(69, 117, 60);
+    font-weight: bold;
+    text-decoration: double;
+}
+.stone {
+    color: black;
+    text-decoration: line-through;
+}
+.title_kont {
+    margin-top: 150px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.adress {
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
+.map {
+    float: right;
+    margin-top: -18%;
+}
+.map img {
+    border-radius: 20px;
+}
+.footer__info {
+    margin-top: 20%;
+  }
+  .footer__adres {
+    margin-bottom: 50px;
+    padding-top: 60px;
+    font-size: 15px;
+    opacity: 0.8;
+  }
+  .footer__number { 
+    font-size: 25px;
+    opacity: 0.8;
+  }
+  .footer__politic {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .footer__politic a {
+    text-decoration: none;
+    color: #0e2431;
+    line-height: 40px;
+  }
+  .mail {
+    display: flex;
+    margin-left: 70%;
+    margin-top: -10%;
+  }
+  .mail__txt {
+    font-size: 20px;
+    opacity: 0.8s;
+    
+  }
